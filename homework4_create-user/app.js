@@ -1,12 +1,12 @@
 function createNewUser(
   firstName = prompt("name", ""),
-  lastName = prompt("last name", "")
+  secondName = prompt("second name", "")
 ) {
   this.firstName = firstName;
-  this.lastName = lastName;
+  this.secondName = secondName;
   this.getLogin = function () {
     let result =
-      this.firstName.charAt(0).toLowerCase() + this.lastName.toLowerCase();
+      this.firstName.charAt(0).toLowerCase() + this.secondName.toLowerCase();
     return result;
   };
 }
