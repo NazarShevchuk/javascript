@@ -1,0 +1,32 @@
+.input-value {
+  background-color: transparent;
+  border: 2px solid #dbdbdb;
+  margin: 0;
+  padding: 12px;
+  font-family: sans-serif;
+  border-radius: 8px;
+  font-size: 24px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.input-label {
+  font-family: sans-serif;
+  font-size: 32px;
+  color: #333;
+}
+
+.input-focus {
+  border: 2px solid green;
+}
+
+.input-error {
+  border: 2px solid tomato;
+}
+
+.input-price {
+  font-family: sans-serif;
+  font-size: 44px;
+  color: #333;
+}
