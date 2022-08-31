@@ -6,10 +6,10 @@ function checkPassword() {
 
   if (password.length != 0) {
     if (password == cnfrmPassword) {
-      message.textContent = "Passwords match";
+      message.textContent = "You are welcome";
       message.style.backgroundColor = "#1dcd59";
     } else {
-      message.textContent = "Password don't match";
+      message.textContent = "Нужно ввести одинаковые значения";
       message.style.backgroundColor = "#ff4d4d";
     }
   } else {
